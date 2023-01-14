@@ -54,6 +54,14 @@ footer {
   color: #ff900e;
 }
 
+.text-secondary {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  text-align: center;
+  color: #424242;
+}
+
 /* Header: Navigation - Banner */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -158,10 +166,6 @@ ul li a {
   margin-left: 54px;
 }
 
-.feature-image img {
-  /* position: absolute; */
-}
-
 .btn-large {
   position: relative;
   bottom: 77px;
@@ -186,6 +190,38 @@ ul li a {
   line-height: 40px;
   text-align: center;
   color: #ffffff;
+}
+
+/* Some Facts */
+.some-facts {
+  margin-top: 100px;
+}
+
+.some-facts .text-content {
+  max-width: 542px;
+  margin-bottom: 50px;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fact-item {
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  padding: 45px 35px 0 35px;
+  line-height: 50px;
+  margin: 50px 0;
+  transition: transform 1s;
+}
+
+.fact-item:hover {
+  transform: rotate(90deg);
 }
 
 /* ======== Media Query ========== */
