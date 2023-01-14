@@ -270,6 +270,10 @@ footer {
     padding: 10px 0;
   }
 
+  .banner .text-content {
+    padding: 0 20px;
+  }
+
   .gallery {
     grid-template-columns: repeat(1, 1fr);
   }
