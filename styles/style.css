@@ -224,6 +224,25 @@ ul li a {
   transform: rotate(90deg);
 }
 
+/* Sponsor Section */
+.sponsor {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.sponsor .text-content {
+  max-width: 542px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.sponsor-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 130px;
+}
+
 /* ======== Media Query ========== */
 @media only screen and (max-width: 576px) {
   nav,
@@ -253,5 +272,22 @@ ul li a {
 
   .feaure-content {
     padding: 0 20px;
+  }
+
+  .facts {
+    flex-direction: column;
+  }
+
+  .some-facts {
+    padding: 0 20px;
+  }
+
+  .sponsor-logo {
+    flex-direction: column;
+  }
+
+  .sponsor-logo img {
+    display: inline-block;
+    padding-bottom: 50px;
   }
 }
