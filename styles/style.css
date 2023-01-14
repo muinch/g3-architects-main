@@ -243,6 +243,22 @@ ul li a {
   padding-bottom: 130px;
 }
 
+/* Footer Section */
+footer {
+  height: 100px;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
+  padding: 40px;
+}
+
 /* ======== Media Query ========== */
 @media only screen and (max-width: 576px) {
   nav,
@@ -284,10 +300,15 @@ ul li a {
 
   .sponsor-logo {
     flex-direction: column;
+    padding-bottom: 65px;
   }
 
   .sponsor-logo img {
     display: inline-block;
     padding-bottom: 50px;
+  }
+
+  .text-footer {
+    font-size: 1em;
   }
 }
