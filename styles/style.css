@@ -56,7 +56,7 @@ footer {
 
 .text-secondary {
   font-weight: 600;
-  font-size: 45px;
+  font-size: 2.5em;
   line-height: 60px;
   text-align: center;
   color: #424242;
@@ -324,6 +324,10 @@ footer {
 
   .fact-item {
     margin: 25px 0;
+  }
+
+  .text-secondary {
+    font-size: 2em;
   }
 
   .sponsor-logo {
