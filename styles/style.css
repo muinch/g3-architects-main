@@ -261,13 +261,26 @@ footer {
 
 /* ======== Media Query ========== */
 @media only screen and (max-width: 576px) {
+  nav h2 {
+    margin-bottom: 0;
+  }
   nav,
   ul {
     flex-direction: column;
   }
+
+  ul li {
+    padding-left: 0;
+  }
+
   li a {
     display: inline-block;
     padding: 10px 0;
+  
+  }
+
+  .banner-title {
+    font-size: 3em;
   }
 
   .banner .text-content {
@@ -276,6 +289,11 @@ footer {
 
   .gallery {
     grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 50px;
+  }
+
+  .section-title {
+    font-size: 2em;
   }
 
   .quick-list {
@@ -292,7 +310,7 @@ footer {
 
   .feaure-content {
     padding: 0 20px;
-  }
+  }  
 
   .facts {
     flex-direction: column;
@@ -300,6 +318,12 @@ footer {
 
   .some-facts {
     padding: 0 20px;
+    margin: 0;
+  }
+
+
+  .fact-item {
+    margin: 25px 0;
   }
 
   .sponsor-logo {
@@ -314,5 +338,6 @@ footer {
 
   .text-footer {
     font-size: 1em;
+    padding: 25px;
   }
 }
