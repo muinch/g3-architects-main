@@ -248,6 +248,7 @@ footer {
   height: 100px;
   background: #fff4e7;
   border-radius: 8px;
+  margin-bottom: 5em;
 }
 
 .text-footer {
@@ -320,7 +321,6 @@ footer {
     padding: 0 20px;
     margin: 0;
   }
-
 
   .fact-item {
     margin: 25px 0;
